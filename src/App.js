@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/FooterComponent/FooterComponent';
+import Header from './components/HeaderComponent/HeaderComponent';
+import SideNav from './components/SideNavComponent/SideNavComponent';
+import MenuItem from './components/MenuItemComponent/MenuItemComponent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+    
+ render(){
+   return (<div className="App">
+   {/* <header className="App-header">  
+    
+     <a
+       className="App-link"
+       href="https://github.com/AGVinay7"
+       target="_blank"
+       rel="noopener noreferrer"
+     >
+       VinayAG@GitHub
+     </a>
+   </header> */}
+   <Header/>
+   <SideNav/>
+   <MenuItem Name={"Menu-Item"}></MenuItem>
+   <Footer/>
+ </div>);
+ }
+
+
 }
 
 export default App;
