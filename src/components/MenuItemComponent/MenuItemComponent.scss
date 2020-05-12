@@ -1,0 +1,25 @@
+.menu-item a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;   
+    // background-color: #282c34;
+    // min-height: 36vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+}
+.menu-item a:hover{
+ color:  rgb(247, 111, 57);
+ text-decoration: none;
+ font-size: 300%;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-item a:active{
+    color: blue
+    
+   }
+
+   

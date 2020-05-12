@@ -1,0 +1,15 @@
+
+.app-header {
+  min-height: 36vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 875%;
+  color: white;
+}
+
+.app-header:hover {
+  color: rgb(233, 18, 18);
+  font-size: 975%;
+}
