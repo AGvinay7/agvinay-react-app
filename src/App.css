@@ -6,7 +6,7 @@
 .App-link {
   color: #8d9091;
 }
-
+/* 
 .container {
   display: grid;
   grid-template-columns: 20vw auto;
@@ -27,4 +27,28 @@
 
 .main-content {
   background-color: #cdd0d1;
+} */
+
+.container {  
+  min-height: 100vh;
+}
+
+.navigation-bar {
+  
+  float: left;
+  width: 20%;  
+  
+}
+
+.static-header-content {
+  background-color: #666;   
+  text-align: center;
+  font-size: 15px;
+  width: 100vw;
+  color: white;
+}
+
+.main-content { 
+  width: 100vw;   
+ 
 }
