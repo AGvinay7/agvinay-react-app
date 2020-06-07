@@ -1,9 +1,8 @@
 .body{
     background-color: #464643;    
     height: 100vh;   
-    // text-align: center;
-    // color: #ffffff;    
-
+    position: fixed; 
+    width: 22%;
 }
 
 .toolbar-navigation{
@@ -20,6 +19,8 @@ width: 100%;
 position: fixed;
 background-color: #440577 ;
 }
-.items{
-
+.closeButton{
+    height: 5%;
+    margin-left: 88%;
+    
 }

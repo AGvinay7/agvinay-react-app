@@ -7,33 +7,34 @@ import SideNav from './components/SideNavComponent/SideNavComponent';
 
 class App extends React.Component {
 
-  constructor(props){
-  super(props);
-   this.state = {
-     isOpened : true
-   }
+  constructor(props) {
+    super(props);
+    this.state = {
+      isOpened: true
+    }
   }
 
   hideNavigtaion = () => {
-    this.setState({isOpened:!this.state.isOpened});
+    this.setState({ isOpened: !this.state.isOpened });
   }
 
   render() {
-    return (    
-   
-    <div className="container">
-      
-      {this.state.isOpened && <div className="navigation-bar"><SideNav/></div>}
-           <div className="static-header-content">
-             <Header 
-             Name={'NETFLIX'}
-              BodyText={'A sample React Web Application,'}        
-            
-              />
-              </div>
-              <div className="main-content"><Footer handlerFunc={this.hideNavigtaion}></Footer></div>
-                  
-    </div>
+    return (
+
+      <div className="container">
+
+        {this.state.isOpened && <div className="navigation-bar"><SideNav callBackFunc={this.hideNavigtaion} /></div>}
+        <div className="static-header-content">
+          <Header
+            handlerFunc={this.hideNavigtaion}
+            Name={'NETFLIX'}
+            BodyText={'A sample React Web Application,'}
+
+          />
+        </div>
+        <div className="main-content"><Footer></Footer></div>
+
+      </div>
     );
   }
 

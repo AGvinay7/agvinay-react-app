@@ -3,15 +3,12 @@ import logger from 'loglevel';
 import CardComponent from '../CardComponent/CardComponent';
 import './FooterComponent.scss';
 
-interface IFooterProps {
-    handlerFunc: any
 
-}
 interface IState {
     images: any
 }
 
-export default class FooterComponent extends Component<IFooterProps, IState>{
+export default class FooterComponent extends Component<IState>{
     constructor(props: any) {
         super(props);
     }
@@ -29,12 +26,12 @@ export default class FooterComponent extends Component<IFooterProps, IState>{
         return (
             <div>
                 <div>
-                    <button onClick={this.props.handlerFunc}>Menu</button>
+                   
                     {/* {this.state!.images} */}
 
                 </div>
 
-                <div className="cards">
+               {/*  <div className="cards">
                     <CardComponent Content={""}></CardComponent>
                     <CardComponent Content={""}></CardComponent>
                     <CardComponent Content={""}></CardComponent>
@@ -45,7 +42,7 @@ export default class FooterComponent extends Component<IFooterProps, IState>{
                     <CardComponent Content={""}></CardComponent>
                     <CardComponent Content={""}></CardComponent>
                     <CardComponent Content={""}></CardComponent>
-                </div>
+                </div> */}
             </div>)
 
     }

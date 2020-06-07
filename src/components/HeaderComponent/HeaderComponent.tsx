@@ -2,6 +2,7 @@ import React from 'react';
 import IHeaderProps from './IHeaderProps';
 import "./HeaderComponent.scss";
 import ComponentThree from '../../HigherOderComponents/ComponentThree';
+import hamburger from './../../images/five.png';
 
 interface IHeaderState {
     vinay?: string,
@@ -15,9 +16,9 @@ export default class HeaderComponent extends React.Component<IHeaderProps, IHead
     }
 
 
-    // componentDidMount() {
-    //     setInterval(this.IncTime, 1000);
-    // }
+    componentDidMount() {
+        setInterval(this.IncTime, 1000);
+    }
 
     IncTime = () => {
         this.setState({ date: new Date() })
@@ -28,9 +29,11 @@ export default class HeaderComponent extends React.Component<IHeaderProps, IHead
     render() {
         return (
             <div>
+                 
                 <div>
-                    <div className="app-header">{this.props.Name}</div>
-                    <div >{this.state?.date?.toLocaleTimeString()}</div>
+                    <img className="hamburger" src={hamburger} onClick={this.props.handlerFunc}/>    
+                    <div className="app-header"> {this.props.Name}</div>
+                    <div className="inline-timer">{this.state?.date?.toLocaleTimeString()}</div>
                 </div>
             </div>
         )
