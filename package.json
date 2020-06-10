@@ -1,4 +1,6 @@
 {
+  "homepage": "https://AGvinay7.github.io/agvinay-react-app", 
+  
   "name": "agvinay-react-app",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +17,8 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
