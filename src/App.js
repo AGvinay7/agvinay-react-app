@@ -27,7 +27,7 @@ class App extends React.Component {
         <div className="static-header-content">
           <Header
             handlerFunc={this.hideNavigtaion}
-            Name={'NETFLIX'}
+            Name={'Vinay AG'}            
             BodyText={'A sample React Web Application,'}
 
           />
