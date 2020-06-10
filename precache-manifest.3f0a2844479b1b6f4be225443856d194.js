@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7f6f5e3c3da79fcad4ec4cfb8ca9c81",
+    "revision": "25e7ff1a936376490544733d030c6132",
     "url": "/agvinay-react-app/index.html"
   },
   {
-    "revision": "b0ca82c482b826cecb05",
-    "url": "/agvinay-react-app/static/css/main.63c54362.chunk.css"
+    "revision": "0c6c836d18e8c7de4d83",
+    "url": "/agvinay-react-app/static/css/main.5b905e83.chunk.css"
   },
   {
     "revision": "efb8b620067ecbac3db1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agvinay-react-app/static/js/2.246adf22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0ca82c482b826cecb05",
-    "url": "/agvinay-react-app/static/js/main.3371e638.chunk.js"
+    "revision": "0c6c836d18e8c7de4d83",
+    "url": "/agvinay-react-app/static/js/main.f680f8e0.chunk.js"
   },
   {
     "revision": "98c568e90b296b9c1b96",
