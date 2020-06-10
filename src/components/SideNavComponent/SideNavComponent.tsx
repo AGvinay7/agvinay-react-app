@@ -17,10 +17,8 @@ export default class SideNavComponent extends Component<ISideNavProps> {
             <div className="body">
                 <img src={imgvinay} className="closeButton" onClick={this.props.callBackFunc}/>
                 <div >
-                    <Menu Name={"Photos"}></Menu>
-                    <Menu Name={"About us"}></Menu>
-                    <Menu Name={"Settings"}></Menu>
-                    <Menu Name={"Profile"}></Menu>
+                   
+                    <Menu Name={""}></Menu>
                 </div>
             </div>           
         );

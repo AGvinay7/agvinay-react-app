@@ -33,7 +33,8 @@ export default class HeaderComponent extends React.Component<IHeaderProps, IHead
                 <div>
                     <img className="hamburger" src={hamburger} onClick={this.props.handlerFunc}/>    
                     <div className="app-header"> {this.props.Name}</div>
-                    <h1>Fullstack Developer</h1>
+                    <h1>Software Engineer</h1>
+                    <p>Honeywell Technology Solutions, 9A. RMZ ecoworld<br/>Bangalore-560035<br/>+91-9538805660<br/>vinay.ag@honeywell.com <br/>vinay.1ag@gmail.com  </p>
                     <div className="inline-timer">{this.state?.date?.toLocaleTimeString()}</div>
                 </div>
             </div>

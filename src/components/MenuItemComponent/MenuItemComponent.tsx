@@ -9,7 +9,10 @@ export default class MenuItemComponent extends Component<IMenuProps>{
     render() {
         return (
             <div className="menu-item">
-                <a href="/">{this.props?.Name}</a>
+                <a href="https://www.linkedin.com/in/vinay-ag">LinkedIn</a>                
+                <a href="https://www.github.com/AGvinay7">GitHub</a>
+                <a href="https://www.instagram.com/agvinn">Instagram</a>
+                <a href="https://www.facebook.com/vinay.ag.5205">Facebook</a>
             </div>
         );
     }
