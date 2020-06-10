@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/agvinay-react-app/precache-manifest.1e21d01b3ebd413a8499b983fc8a1e0e.js"
+  "/agvinay-react-app/precache-manifest.75d870c736150499d5a6b5aac5ff3a34.js"
 );
 
 self.addEventListener('message', (event) => {
